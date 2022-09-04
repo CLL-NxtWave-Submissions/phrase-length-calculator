@@ -27,9 +27,14 @@ export default class LettersCalculator extends Component {
             Calculate the Letters you enter
           </h1>
           <div className="letters-calculator-phrase-input-container">
-            <p className="letters-calculator-input-label">Enter the phrase</p>
+            <label
+              htmlFor="userInput"
+              className="letters-calculator-input-label"
+            >
+              Enter the phrase
+            </label>
             <input
-              id="userInputPhrase"
+              id="userInput"
               className="letters-calculator-input"
               placeholder="Enter the phrase"
               name="user-input"
@@ -37,11 +42,9 @@ export default class LettersCalculator extends Component {
               onChange={this.onInputPhraseChange}
             />
           </div>
-          <div className="letters-count-display-container">
-            <p className="letters-count-text">
-              No.of letters: <span>{inputPhraseLength}</span>
-            </p>
-          </div>
+          <p className="letters-count-text">
+            No.of letters: {inputPhraseLength}
+          </p>
         </div>
         <img
           className="main-img"

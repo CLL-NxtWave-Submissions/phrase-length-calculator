@@ -46,18 +46,14 @@
   margin-top: 0rem;
 }
 
-.letters-count-display-container {
+.letters-count-text {
   background-color: #ffffff;
   padding: 1.2rem 1.7rem;
   border-radius: 0.6rem;
-}
-
-.letters-count-text {
   color: #219a6f;
   font-size: 1.8rem;
   margin: 0;
   font-weight: bold;
-  width: 100%;
 }
 
 .main-img {
@@ -95,12 +91,9 @@
     font-size: 2.1rem;
   }
 
-  .letters-count-display-container {
-    padding: 1.5rem 2rem;
-  }
-
   .letters-count-text {
-    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    font-size: 2.5rem;
   }
 
   .main-img {
